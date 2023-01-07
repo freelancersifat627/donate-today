@@ -40,10 +40,75 @@
     padding: 15px;
     border: none;
     border-radius: 5px;
-    width: 142px;
+    width: 160px;
     font-size: 18px;
     height: auto;
     background-color: #e74c3c;
     color: white;
     font-weight: 700;
+}
+/* donate today section */
+.donate-continer {
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-title {
+    padding-top: 130px;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+p.donate-description {
+    color: #707070;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+p.other-amount {
+    color: #B3B3B3;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+hr {
+    color: #DADADA;
+    margin-bottom: 40px;
+}
+
+.donate-amount {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.donate-item {
+    text-align: center;
+    width: 150px;
+    height: 134px;
+    background: #FAFAFA;
+    margin: 5px 15px 5px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+span.donateiteam-span {
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: #707070
+}
+
+.donate-item.second {
+    background-color: #ed504233;
+    border: 3px solid #ED5042;
+    width: 147px;
+    height: 128px;
 }
